@@ -1,6 +1,6 @@
 // URL: https://leetcode.com/problems/simplified-fractions/
-// Run resuls: Runtime: 96 ms, faster than 100.00% of C++ online submissions for Simplified Fractions.
-//             Memory Usage: 21.9 MB, less than 100.00% of C++ online submissions for Simplified Fractions.
+// Run results: Runtime: 96 ms, faster than 100.00% of C++ online submissions for Simplified Fractions.
+//              Memory Usage: 21.9 MB, less than 100.00% of C++ online submissions for Simplified Fractions.
 
 class Solution {
 public:
