@@ -1,6 +1,6 @@
-// URL: https://leetcode.com/problems/max-difference-you-can-get-from-changing-an-integer/
-// Run result: Runtime: 24 ms, faster than 66.67% of Python3 online submissions for Max Difference You Can Get From Changing an Integer.
-//             Memory Usage: 13.9 MB, less than 100.00% of Python3 online submissions for Max Difference You Can Get From Changing an Integer.
+# URL: https://leetcode.com/problems/max-difference-you-can-get-from-changing-an-integer/
+# Run result: Runtime: 24 ms, faster than 66.67% of Python3 online submissions for Max Difference You Can Get From Changing an Integer.
+#             Memory Usage: 13.9 MB, less than 100.00% of Python3 online submissions for Max Difference You Can Get From Changing an Integer.
 class Solution:
     def maxDiff(self, num: int) -> int:
         a = str(num)

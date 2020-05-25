@@ -1,0 +1,10 @@
+# URL: https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/
+# Run result: Runtime: 72 ms, faster than 33.33% of Python3 online submissions for Number of Students Doing Homework at a Given Time.
+#             Memory Usage: 14 MB, less than 100.00% of Python3 online submissions for Number of Students Doing Homework at a Given Time.
+class Solution:
+    def busyStudent(self, startTime: List[int], endTime: List[int], queryTime: int) -> int:
+        count = 0
+        for i in range(0, len(startTime)):
+            if startTime[i] <= queryTime and queryTime <= endTime[i]:
+                count+=1
+        return count
